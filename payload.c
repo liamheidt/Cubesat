@@ -42,7 +42,7 @@ double dist[n];
 double dir[2];
 double vel[2];
 double output[3];
-double finalOutput[5];
+double finalOutput[6];
 
  for(int i  = 0; i < n; i++){
   dt[i] = timeM[i] - timeM[0];
