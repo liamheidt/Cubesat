@@ -97,19 +97,21 @@ timeref = timeref  + timeM[0];
 //Save everything that is needed to find the orbit of the piece of space debris
 
 //Reference x point
-finalOutput[0] = xref;
+finalOutput[0] = 4;
+
+finalOutput[1] = xref;
 
 // Reference y point
-finalOutput[1] = yref;
+finalOutput[2] = yref;
 
 // Reference time
-finalOutput[2] = timeref;
+finalOutput[3] = timeref;
 
 // Direciton of travel
-finalOutput[3] = dir[0];
+finalOutput[4] = dir[0];
 
 // Velocity of travel
-finalOutput[4] = vel[0];
+finalOutput[5] = vel[0];
 
 // ADD IN THE CODE TO SAVE TO MEMORY CARD HERE
 //Serial.println("Start opf output");
